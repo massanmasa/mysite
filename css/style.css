@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.skill-wrapper {
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+.skill-box {
+  margin: 0 5% 3rem;
+  width: 30%;
+}
+
+.skill-icon {
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 8rem;
+}
+
+.skill-name {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.skill-text {
+  text-align: left;
+  font-size: 1.3rem;
+}
