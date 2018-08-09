@@ -1,5 +1,5 @@
 jQuery(function($) {
-    $('#Quietflow').quietflow({
+    $('.top').quietflow({
         theme: 'bouncingBalls',
         specificColors : [
             'rgba(255, 10, 50, 0.5)',
