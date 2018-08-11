@@ -81,3 +81,59 @@ a {
     text-align: left;
     font-size: 1.3rem;
 }
+
+/* Contact */
+.contact-container {
+    margin: 0 auto;
+    width: 50rem;
+    text-align: left;
+}
+
+.contact-menu {
+    margin-bottom: 2rem;
+    dt {
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+}
+
+.required {
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    color: #87cefa;
+}
+
+.required-text {
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #dc143c;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.contact-input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-textarea {
+    @extend .contact-input;
+}
+
+.contact-submit {
+    margin-left: 1rem;
+    text-align: center;
+    button {
+        border: 1px solid #333;
+        padding: 15px;
+        background-color: #555;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+}
+
+#cancel-btn {
+    margin-left: 2rem;
+}
