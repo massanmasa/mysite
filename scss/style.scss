@@ -1,0 +1,139 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 900px;
+}
+
+.site-title {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.top-nav {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 12rem;
+}
+
+.top-nav-list-item {
+    margin-bottom: 2rem;
+    a {
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 2.4rem;
+        color: #333;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.skill-wrapper {
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.skill-box {
+    margin: 0 5% 3rem;
+    width: 30%;
+}
+
+.skill-icon {
+    display: block;
+    margin-bottom: 3rem;
+    font-size: 8rem;
+}
+
+.skill-name {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.skill-text {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+/* Contact */
+.contact-container {
+    margin: 0 auto;
+    width: 50rem;
+    text-align: left;
+}
+
+.contact-menu {
+    margin-bottom: 2rem;
+    dt {
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+}
+
+.required {
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    color: #87cefa;
+}
+
+.required-text {
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #dc143c;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.contact-input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-textarea {
+    @extend .contact-input;
+}
+
+.contact-submit {
+    margin-left: 1rem;
+    text-align: center;
+    button {
+        border: 1px solid #333;
+        padding: 15px;
+        background-color: #555;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+}
+
+#cancel-btn {
+    margin-left: 2rem;
+}
