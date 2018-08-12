@@ -82,6 +82,22 @@ a {
     font-size: 1.3rem;
 }
 
+/* Work */
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    a {
+        width: 30%;
+        font-size: 1.5rem;
+        color: #333;
+    }
+}
+
+.work-image {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
 /* Contact */
 .contact-container {
     margin: 0 auto;
