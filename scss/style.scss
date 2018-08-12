@@ -14,7 +14,9 @@ a {
     text-decoration: none;
 }
 
+/* header */
 .top {
+    margin-bottom: 5rem;
     height: 900px;
 }
 
@@ -55,6 +57,10 @@ a {
     font-size: 3.5rem;
 }
 
+.mySkill {
+    margin-bottom: 5rem;
+}
+
 .skill-wrapper {
     display: inline-flex;
     margin-top: 50px;
@@ -83,6 +89,10 @@ a {
 }
 
 /* Work */
+.work {
+    @extend .mySkill;
+}
+
 .work-container {
     display: flex;
     justify-content: space-between;
@@ -93,12 +103,20 @@ a {
     }
 }
 
+.work {
+    @extend .mySkill;
+}
+
 .work-image {
     margin-bottom: 2rem;
     width: 100%;
 }
 
 /* Contact */
+.contact {
+    @extend .mySkill;
+}
+
 .contact-container {
     margin: 0 auto;
     width: 50rem;

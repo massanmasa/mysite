@@ -14,7 +14,9 @@ a {
   text-decoration: none;
 }
 
+/* header */
 .top {
+  margin-bottom: 5rem;
   height: 900px;
 }
 
@@ -54,6 +56,10 @@ a {
 .section-title {
   text-align: center;
   font-size: 3.5rem;
+}
+
+.mySkill, .work, .contact {
+  margin-bottom: 5rem;
 }
 
 .skill-wrapper {
